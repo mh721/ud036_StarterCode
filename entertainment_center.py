@@ -21,6 +21,38 @@ deadpool = media.Movie("Deadpool",
                        "https://www.youtube.com/watch?v=ONHBaC-pfsk"
                        )
 
-movies = [riddick, deadpool] 
+forrest_gump = media.Movie("Forrest Gump", 
+                           "The presidencies of Kennedy and Johnson, Vietnam, " +
+                           "Watergate, and other history unfold through the " +
+                           "perspective of an Alabama man with an IQ of 75.",
+                           "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+                           "https://www.youtube.com/watch?v=bLvqoHBptjg"
+                           )
+
+fight_club = media.Movie("Fight Club", 
+                         "An insomniac office worker and a devil-may-care " +
+                         "soapmaker form an underground fight club that evolves " +
+                         "into something much, much more.",
+                         "https://m.media-amazon.com/images/M/MV5BMjJmYTNkNmItYjYyZC00MGUxLWJhNWMtZDY4Nzc1MDAwMzU5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,676,1000_AL_.jpg",
+                         "https://www.youtube.com/watch?v=BdJKm16Co6M"
+                         )
+
+pulp_fiction = media.Movie("Pulp Fiction", 
+                           "The lives of two mob hit-men, a boxer, a gangster's " +
+                           "wife, and a pair of diner bandits intertwine in four " +
+                           "tales of violence and redemption.",
+                           "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,686,1000_AL_.jpg",
+                           "https://www.youtube.com/watch?v=s7EdQ4FqbhY"
+                           )
+
+matrix = media.Movie("The Matrix", 
+                     "A computer hacker learns from mysterious rebels about the " +
+                     "true nature of his reality and his role in the war against " +
+                     "its controllers.",
+                     "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,665,1000_AL_.jpg",
+                     "https://www.youtube.com/watch?v=tGgCqGm_6Hs"
+                     )
+
+movies = [riddick, deadpool, forrest_gump, fight_club, pulp_fiction, matrix] 
 
 fresh_tomatoes.open_movies_page(movies)
