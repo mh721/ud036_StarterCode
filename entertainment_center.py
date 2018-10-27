@@ -53,6 +53,8 @@ matrix = media.Movie("The Matrix",
                      "https://www.youtube.com/watch?v=tGgCqGm_6Hs"
                      )
 
+# push movies in the movies list
 movies = [riddick, deadpool, forrest_gump, fight_club, pulp_fiction, matrix] 
 
+# generate and open html
 fresh_tomatoes.open_movies_page(movies)
