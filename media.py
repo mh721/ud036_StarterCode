@@ -1,12 +1,13 @@
 import webbrowser
 
+
 class Movie:
     """ Movie class can initialize movie object and play trailer """
 
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
         """ Constructor
-        
+       
         Arguments:
             movie_title {str} -- Movie title
             movie_storyline {str} -- Movie storyline
